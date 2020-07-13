@@ -1,0 +1,15 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (Ohio),Amazon Virtual Private Cloud (VPC),0,36.5,438,USD,Number of Site-to-Site VPN Connections (1)
+My Estimate,US East (Ohio),Amazon RDS for MySQL,0,9719.988,116639.86,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (db.r5.24xlarge)"
+My Estimate,US East (Ohio),Amazon EC2,0,7606.92,91283.04,USD,"Operating system (Linux), Quantity (4), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (m5a.24xlarge)"
+My Estimate,US East (Ohio),Amazon Route 53,0,2501.5,30018,USD,Hosted Zones (1)
+,,,,,,,
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+Changes ,,,,,,,
+I decided to allocate a larger RDS EC2 instance and a larger EC2 instance since the client has more budget ,,,,,,,
+The changes that I made are upgrading the previous selections to:,,,,,,,
+"RDS EC2 instance: db.r5.24xlarge, 768 GB, 96 vCPUs",,,,,,,
+"EC2 instance: m5a.24xlarge, vCPUs 96, 384 GiB, 20GB network",,,,,,,
+ ,,,,,,,
